@@ -90,15 +90,15 @@ data_docs_sites:
 fluent_datasources:
   churn_data_source:
     type: pandas
-    id: d80c982c-4283-49f8-b6bc-1561337b46fb
+    id: 27fb651c-54f0-4df6-8be3-205db1a5140a
     assets:
       churn_data_asset:
         type: dataframe
-        id: 2a5b0813-4f2d-4d5b-9eb2-d02f63deaf47
+        id: 9fd75d78-2872-4729-a8ba-0b590b424807
         batch_metadata: {}
         batch_definitions:
           bulk batch:
-            id: 8c9c1449-1739-4961-b999-f78fcbfc0c41
+            id: 1cd832c6-cc7f-49af-985a-6da534e67fa0
             partitioner:
 analytics_enabled:
-data_context_id: 13841648-d0ed-4270-8fbf-0caa31d55c2a
+data_context_id: 0f714c24-451b-4121-8dd4-8c79afa8bb24

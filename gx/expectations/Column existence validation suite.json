@@ -1,0 +1,186 @@
+{
+  "expectations": [
+    {
+      "id": "c559ee70-7ff0-47cf-894e-3583007a058c",
+      "kwargs": {
+        "column": "CustomerID"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d6da08bc-f135-4d70-86b3-e1396ee6af5d",
+      "kwargs": {
+        "column": "Churn"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "08f12339-d694-457f-b2c9-bbf328deb0c4",
+      "kwargs": {
+        "column": "Tenure"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "ea0fb4fc-1a57-473e-a2eb-38ece3936868",
+      "kwargs": {
+        "column": "PreferredLoginDevice"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "8a19c297-766e-4c41-a5be-aa7176b14cd4",
+      "kwargs": {
+        "column": "CityTier"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "0024a31a-7699-40c3-bdfe-89bce7f59068",
+      "kwargs": {
+        "column": "WarehouseToHome"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "496d1aba-9f31-408e-8d4d-315494ccefb1",
+      "kwargs": {
+        "column": "PreferredPaymentMode"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "60df10dc-e168-457c-9a1f-deda5a89a18e",
+      "kwargs": {
+        "column": "Gender"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "a156453c-ac52-4984-82ce-e699961830ab",
+      "kwargs": {
+        "column": "HourSpendOnApp"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "20ef5558-c5b3-48b4-9308-a5873a06e163",
+      "kwargs": {
+        "column": "NumberOfDeviceRegistered"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d7bd0e89-6c77-4acb-b2df-67b55a35203f",
+      "kwargs": {
+        "column": "PreferedOrderCat"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "0c18af44-93f2-4702-80d7-693c7b42e443",
+      "kwargs": {
+        "column": "SatisfactionScore"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d73d4fc9-999e-4891-be47-86af0242201d",
+      "kwargs": {
+        "column": "MaritalStatus"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "652143fc-041e-411b-8f5a-a966ef42e5fe",
+      "kwargs": {
+        "column": "NumberOfAddress"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "4757ba50-94a6-4be6-b6fe-6c9be523113e",
+      "kwargs": {
+        "column": "Complain"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "7e321c98-7ffc-4892-8408-2f7dd72f1f2c",
+      "kwargs": {
+        "column": "OrderAmountHikeFromlastYear"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "7f821138-52c1-4770-a238-d293901cf564",
+      "kwargs": {
+        "column": "CouponUsed"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "cabf063c-efdf-4be4-96a0-6936a2429977",
+      "kwargs": {
+        "column": "OrderCount"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "745ccc9c-d8ab-48f9-82e0-e7a863679cce",
+      "kwargs": {
+        "column": "DaySinceLastOrder"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "7d3a423d-bb47-45f6-9430-8e1d24b13044",
+      "kwargs": {
+        "column": "CashbackAmount"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "6533a0cd-ec7e-4f82-8ed6-71123ab6fc1a",
+      "kwargs": {
+        "column": "source"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "d2a35ea8-6334-4388-b3e5-f54f65ff5f88",
+      "kwargs": {
+        "column": "data_last_updated_dt"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    }
+  ],
+  "id": "76a60156-c508-4c63-9e1c-23d23e517071",
+  "meta": {
+    "great_expectations_version": "1.3.7"
+  },
+  "name": "Column existence validation suite",
+  "notes": null
+}

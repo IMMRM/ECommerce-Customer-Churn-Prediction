@@ -1,0 +1,208 @@
+{
+  "expectations": [
+    {
+      "id": "17752ecb-d382-4f5d-b91e-2d6719035a18",
+      "kwargs": {
+        "column": "CustomerID",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "e3e82daa-78bc-4795-a6d5-df006da4f0d6",
+      "kwargs": {
+        "column": "Churn",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "df5b4044-6e4b-464b-9675-deef84ef2224",
+      "kwargs": {
+        "column": "Tenure",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "41287336-2225-4006-b48b-49c70445cd42",
+      "kwargs": {
+        "column": "PreferredLoginDevice",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "d6cd9c23-2c54-4698-b6cf-94fa89fc9ea0",
+      "kwargs": {
+        "column": "CityTier",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "95a6adb6-49ff-4eec-8d26-a50f2f40fcd0",
+      "kwargs": {
+        "column": "WarehouseToHome",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "153562bd-0596-425e-ae8c-967c0b473d4e",
+      "kwargs": {
+        "column": "PreferredPaymentMode",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "342e1cd1-f23c-442e-9edc-473f58d7c476",
+      "kwargs": {
+        "column": "Gender",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "e1b2c78b-d709-4e0e-8bc7-b7131c10fc01",
+      "kwargs": {
+        "column": "HourSpendOnApp",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "3eb6f31a-fb7e-417f-80b7-b0d6eb82138b",
+      "kwargs": {
+        "column": "NumberOfDeviceRegistered",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "823a3a25-2222-4a3a-b39e-613ff92c89f6",
+      "kwargs": {
+        "column": "PreferedOrderCat",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "812f8dd5-ca74-4261-97e6-2a1d8dbd6cd7",
+      "kwargs": {
+        "column": "SatisfactionScore",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "38ebc535-ca76-4fff-be4a-96b1d283105d",
+      "kwargs": {
+        "column": "MaritalStatus",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "4420a759-59e3-4d67-bb94-094b3f7255de",
+      "kwargs": {
+        "column": "NumberOfAddress",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "1770264c-21d6-446f-9636-2cbf9ee3faee",
+      "kwargs": {
+        "column": "Complain",
+        "type_": "int64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "cf68a1c3-f7bf-4168-a2bd-ea0ac6a178bb",
+      "kwargs": {
+        "column": "OrderAmountHikeFromlastYear",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "c57ea6f5-6e07-4fed-86e2-01ac77c1d90e",
+      "kwargs": {
+        "column": "CouponUsed",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "be05dd62-b097-4a02-9d5a-89a30b54711c",
+      "kwargs": {
+        "column": "OrderCount",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "47f1e8f9-9dfb-4bfd-8686-f75c64888514",
+      "kwargs": {
+        "column": "DaySinceLastOrder",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "645f42b7-8cdd-4790-873a-e2573a82372e",
+      "kwargs": {
+        "column": "CashbackAmount",
+        "type_": "float64"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "d11c4216-ddb7-4a23-b932-2ec87be52d61",
+      "kwargs": {
+        "column": "source",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "5aa51dc3-aace-4934-a02e-cce3711ebff6",
+      "kwargs": {
+        "column": "data_last_updated_dt",
+        "type_": "object"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    }
+  ],
+  "id": "bcc48b32-ef2b-4024-89b1-528a3e738653",
+  "meta": {
+    "great_expectations_version": "1.3.7"
+  },
+  "name": "Data Type Check Suite",
+  "notes": null
+}

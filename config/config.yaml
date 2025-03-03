@@ -1,0 +1,30 @@
+
+data:
+  raw: "data/raw/"
+  processed: "data/processed/"
+  interim: "data/interim/"
+  external: "data/external/"
+  kaggle_source_path: "ankitverma2010/ecommerce-customer-churn-analysis-and-prediction"
+  gdrive_source_path: "https://drive.google.com/uc?id=1L33uQvZl0D2gNnu79tbJnjuX0ZAzr9_C"
+  interim_kaggle: "data/interim/kaggle/"
+  interim_gdrive: "data/interim/gdrive/"
+  models: "models/"
+
+sql:
+  db_path: "config/churn_data.db"
+  processed: "data/processed/"
+  data_table_name: "transformed_churn_data"
+
+data_validation:
+  data_source_kaggle: "data/interim/kaggle/"
+  data_source_gdrive: "data/interim/gdrive/"
+  STATUS_REPORT_FILE: "uncommitted/data_docs/local_site/"
+
+feature_store_repo:
+  repo_path: "churn_feature_store/feature_repo/"
+
+
+
+  
+  
+

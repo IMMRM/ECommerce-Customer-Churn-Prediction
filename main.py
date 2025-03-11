@@ -5,6 +5,8 @@ from src.pipelines.data_validation import DataValidation
 from src.pipelines.data_preparations import DataPreparation
 from src.pipelines.data_transform_storage import DataTransformationStorage
 from src.pipelines.feature_store_retrival import FeatureRetrival
+from src.pipelines.train import Train
+
 
 logger.info(">>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion >>>>>>>>>>>>>>>>>>>>>>>>>>")
 #1. Data Ingestion
@@ -63,3 +65,10 @@ try:
     logger.info("Feature Retrieval Completed!")
 except Exception as e:
     raise logger.error(f"Failure for feature retrieval :{e}")
+
+#7. Run experiments for model training
+logger.info(">>>>>>>>>>>>>>>>>>>>> Model training and experiment tracking >>>>>>>>>>>>>>>")
+train_obj=Train()
+train_obj.run_train()
+
+

@@ -1,19 +1,21 @@
-from src.constants import CONFIG_PATH,PARAMS_PATH,SCHEMA_PATH
+from src.constants import CONFIG_PATH,PARAMS_PATH,SCHEMA_PATH,SECRETS_PATH
 from src.utils.common import read_yaml
 from src.entity.data_ingestion import DataIngestionConfig
 from src.entity.data_storage import DataStorageConnectionConfig
 from src.entity.data_validation import DataValidationConfig
 from src.entity.data_preparations import DataPreparationConfig
 from src.entity.feature_store import FeatureRetrivalConfig
+from src.entity.mlflow import (MLFlowCreds,Parameters)
 
 
 
 
 class ConfigurationManager:
-    def __init__(self,config_path=CONFIG_PATH,params_path=PARAMS_PATH,schema_path=SCHEMA_PATH):
+    def __init__(self,config_path=CONFIG_PATH,params_path=PARAMS_PATH,schema_path=SCHEMA_PATH,secret_path=SECRETS_PATH):
         self.config=read_yaml(config_path),
         self.params=read_yaml(params_path),
-        self.schema=read_yaml(schema_path)
+        self.schema=read_yaml(schema_path),
+        self.secrets=read_yaml(secret_path)
     def get_data_ingestion_config(self)->DataIngestionConfig:
         config=self.config[0].data
         data_ingestion=DataIngestionConfig(
@@ -58,4 +60,24 @@ class ConfigurationManager:
             repo_path=config.repo_path
         )
         return feature_config
-        
+    def get_mlflow_secret_config(self)->MLFlowCreds:
+        secrets=self.secrets.ml_flow_creds
+        mlflow_creds=MLFlowCreds(
+            tracking_ui=secrets.tracking_uri,
+            username=secrets.username,
+            password=secrets.password
+        )
+        return mlflow_creds
+    def get_train_params(self)->Parameters:
+        parameters=self.params[0].train
+        params=Parameters(
+            data_path=parameters.data,
+            model_path=parameters.model,
+            random_state=parameters.random_state,
+            n_estimators=parameters.n_estimators,
+            max_depth=parameters.max_depth
+        )
+        return params
+    def get_hyperparameter_grid(self):
+        grid=self.params[0].hyperparameter_grids
+        return grid
